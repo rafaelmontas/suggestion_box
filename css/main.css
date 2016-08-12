@@ -1,0 +1,44 @@
+body, html {
+	color: #fff;
+	background-color: #41596d;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+	width: 750px;
+}
+
+.row {
+	margin: 30px 0px 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.col-md-4 {
+	margin-right: -80px;
+}
+
+.col-md-4 img {
+	height: 100px;
+}
+
+.col-md-8 h1 {
+	font-size: 60px;
+	color: #0ffff8;
+}
+
+.glyphicon-plus-sign, span {
+	color: #57f957;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.posts {
+	margin-bottom: 40px;
+	padding-bottom: 25px;
+    border-bottom: 1px solid #fff;
+}
+
+h1 {
+	font-size: 35px;
+}
