@@ -33,10 +33,26 @@ body, html {
 	margin-right: 5px;
 }
 
+.btn span {
+	color: gray;
+}
+
 .posts {
 	margin-bottom: 40px;
 	padding-bottom: 25px;
     border-bottom: 1px solid #fff;
+}
+
+.posts p, .posts a {
+	display: inline-block;
+}
+
+.posts p {
+	margin-right: 10px;
+}
+
+.posts a {
+	color: #79eaff;
 }
 
 h1 {
