@@ -58,3 +58,13 @@ body, html {
 h1 {
 	font-size: 35px;
 }
+
+
+/* Comments */
+
+.comments {
+	border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 10px;
+}
+
+

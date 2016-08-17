@@ -3,7 +3,7 @@
 </a>
 <h2>{{post.title}}</h2>
 
-<div ng-repeat="comment in post.comments">
+<div class="comments" ng-repeat="comment in post.comments | orderBy:'-upvotes'">
 	<h4>{{ comment.body }}</h4>
 	<span class="glyphicon glyphicon-plus-sign" ng-click="upVoteComment(comment)"></span> Upvotes: {{ comment.upvotes }}
 </div>
