@@ -1,6 +1,6 @@
 app.controller("SuggestionController", ["$scope", "$routeParams", "suggestions", function($scope, $routeParams, suggestions) {
 	$scope.post = suggestions.posts[$routeParams.id];
-	
+
 
 	$scope.addComment = function() {
 		if(!$scope.new_comment || $scope.new_comment === "") {
@@ -17,5 +17,6 @@ app.controller("SuggestionController", ["$scope", "$routeParams", "suggestions",
 	$scope.upVoteComment = function(comment) {
 		comment.upvotes += 1;
 	};
-}]);
+}]); 
+
 
