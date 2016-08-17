@@ -25,3 +25,4 @@ app.factory('suggestions', [function(){
 	};
 	return demoSuggestions;
 }]);
+
